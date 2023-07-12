@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web10hw"
+version = "0.1.0"
+description = ""
+authors = ["Dmyto Marchenko <d.i.marchenko@student.khai.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+psycopg2 = "^2.9.6"
+bs4 = "^0.0.1"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
